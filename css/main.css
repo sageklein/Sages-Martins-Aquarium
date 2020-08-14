@@ -1,6 +1,6 @@
 body {
 	background-color: #067BC2;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin: 0;
 }
 
@@ -42,6 +42,16 @@ h2{
 	height: auto;
 	padding-top: 1em;
 }
+
+.block-container {
+    flex: 1;
+    background-color: #84BCDA;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: .5em;
+    border-radius: .2em;
+    margin: 1.8em;
+}
+
 img {
     height: 6em;
 }
@@ -73,3 +83,38 @@ aside {
     padding-bottom: 3em ;
     padding: 20px;
 }
+
+/* body {
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
+}
+
+#fishTank {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 1em;
+	border: 3px dashed red;
+}
+
+.fishList{
+	flex: 3;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.fishList-card {
+	background-color: lightcyan;
+	margin: 1em;
+	flex-basis: 25%;
+	padding: 0 1em;
+}
+
+.card-image {
+	
+}
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+ */
