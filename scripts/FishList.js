@@ -10,7 +10,6 @@ export const FishList = () => {
 	for (const fish of fishes) {
 		fishHTMLRepresentations += Fish(fish);
 	}
-	console.log("fishHTMLRepresentations", fishHTMLRepresentations);
 	// Add a section, and all of the fish to the DOM
 	contentElement.innerHTML += `
         <article class="fishList">

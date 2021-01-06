@@ -1,87 +1,89 @@
 body {
-	background-color: #067BC2;
-    font-family: 'PT Sans Narrow', sans-serif;
-    margin: 0;
+background-color: #067BC2;
+font-family: 'PT Sans Narrow', sans-serif;
+margin: 0;
 }
 
-
 h2{
-    padding-left: 1.5em ;
-
+padding-left: 1.5em ;
 }
 
 #fishTank {
-	display: flex;
-	flex-wrap: nowrap;
-	margin: 1em;
+display: flex;
+flex-direction: row;
+}
+
+.pageColumnLeft{
+width: 75%;
+}
+
+.pageColumnRight{
+width: 25%;
 }
 
 .fishList{
-	flex: 3;
-	display: flex;
-	flex-wrap: wrap;	
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 1em;	
 }
 
 .fishList-card {
-	background-color: #84BCDA;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  	transition: 0.3s;
-	margin: 1em;
-	flex-basis: 25%;
-	padding: 0 1em;
-	color: #A12B2D;
-	border-radius: .2em;
-}
-
-.card-image {
-	
+background-color: #84BCDA;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+margin: 1em;
+flex-basis: 25%;
+padding: 0 1em;
+color: #A12B2D;
+border-radius: .2em;
 }
 
 .fish-image {
-	width: 100%;
-	height: auto;
-	padding-top: 1em;
+width: 100%;
+padding-top: 1em;
+height: auto;
 }
 
 .block-container {
-    flex: 1;
-    background-color: #84BCDA;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	padding: .5em;
-    border-radius: .2em;
-    margin: 1.8em;
+flex: 1;
+background-color: #84BCDA;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding: .5em;
+border-radius: .2em;
+margin: 1.8em;
 }
 
 img {
-    height: 6em;
+width: 20%;
+padding-top: 1em;
 }
 
 aside {
-	flex: 1;
-    background-color: #84BCDA;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	padding: .5em;
-    border-radius: .2em;
-    margin: 1em;
+background-color: #84BCDA;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding: .5em;
+border-radius: .2em;
+margin: 1em;
 }
 
 .footer-container {
-    background-color: #063d5b;
-    color: #ECC30B;
-    text-align: center;
-    height: 40px;
-    min-height: 90%;
-    margin-bottom: -40px;
-    padding: 20px;
-    padding-bottom: 20px;
+background-color: #063d5b;
+color: #ECC30B;
+text-align: center;
+height: 40px;
+min-height: 90%;
+margin-bottom: -40px;
+padding: 20px;
+padding-bottom: 20px;
 }
 
 .logo-container {
-    background-color: #063d5b;
-    color: #ECC30B;
-    text-align: left;
-    padding-bottom: 3em ;
-    padding: 20px;
+background-color: #063d5b;
+color: #ECC30B;
+text-align: left;
+padding-bottom: 3em ;
+padding: 18px;
 }
 
 /* body {
